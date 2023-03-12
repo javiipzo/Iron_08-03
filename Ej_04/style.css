@@ -1,0 +1,11 @@
+/*
+El estilo que prevalece depende del id, si el elemento que estamos usando tiene el id cover-box, prevalecera la regla de #cover box,
+sin embargo, si el id es diferente prevalecera la regla universal.
+*/
+*{
+    color: green;
+}
+#cover-box{
+    color:navy;
+}
+
